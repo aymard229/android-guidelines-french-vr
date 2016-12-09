@@ -2,7 +2,7 @@
 
 ## 1.1 Project structure
 
-New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). The [ribot Boilerplate](https://github.com/ribot/android-boilerplate) project is a good reference to start from.
+New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). The [Mimalist Lite Framework] (https://github.com/geeckmc/Minimalist-Android-MVP-Framework/tree/master) project is a good reference to start from.
 
 ## 1.2 File naming
 
@@ -476,12 +476,12 @@ __Method chain case__
 When multiple methods are chained in the same line - for example when using Builders - every call to a method should go in its own line, breaking the line before the `.`
 
 ```java
-Picasso.with(context).load("http://ribot.co.uk/images/sexyjoe.jpg").into(imageView);
+Picasso.with(context).load("http://craftman.com/android-mvp/images/john.jpg").into(imageView);
 ```
 
 ```java
 Picasso.with(context)
-        .load("http://ribot.co.uk/images/sexyjoe.jpg")
+        .load("http://craftman.com/android-mvp/images/john.jpg")
         .into(imageView);
 ```
 
@@ -490,12 +490,12 @@ __Long parameters case__
 When a method has many parameters or its parameters are very long, we should break the line after every comma `,`
 
 ```java
-loadPicture(context, "http://ribot.co.uk/images/sexyjoe.jpg", mImageViewProfilePicture, clickListener, "Title of the picture");
+loadPicture(context, "http://craftman.com/android-mvp/images/john.jpg", mImageViewProfilePicture, clickListener, "Title of the picture");
 ```
 
 ```java
 loadPicture(context,
-        "http://ribot.co.uk/images/sexyjoe.jpg",
+        "http://craftman.com/android-mvp/images/john.jpg",
         mImageViewProfilePicture,
         clickListener,
         "Title of the picture");
@@ -643,7 +643,7 @@ onView(withId(R.id.view))
 # License
 
 ```
-Copyright 2015 Ribot Ltd.
+Copyright 2016 Shadaï ALI .
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

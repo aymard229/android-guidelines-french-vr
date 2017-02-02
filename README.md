@@ -1,6 +1,6 @@
 # Android Guidelines
 
-List of guidelines that we use at [OpenSI](http://opensi.co) by [Shadaï ALI](https://craftman.com)
+List of guidelines that we use at [OpenSI](http://opensi.co) inspired by Ribot by [Shadaï ALI](https://craftman.com)
 when developing for the __Android__ platform.
 
 * [Project and code style guidelines](project_and_code_guidelines.md)
